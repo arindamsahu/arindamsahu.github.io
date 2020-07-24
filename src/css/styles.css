@@ -3,31 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background: #fff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 15pt;
-  color: #39454b;
-  letter-spacing: 0.5px;
-  height: 100%;
+html {
+  height: 100%
 }
 
-h1 {
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  height: 100%
+}
+
+h1, h5 {
   margin-bottom: .5rem;
-  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   line-height: 1.44;
-  color: inherit;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+}
+
+h5 {
+  font-size: 1.25rem;
 }
 
 header {
   margin-bottom: 1em;
 }
 
-#intro {
+.intro {
   position: relative;
   width: 100%;
   height: 100%;
@@ -35,11 +41,20 @@ header {
   background-color: #111;
   min-height: 600px;
   padding: 0;
-  background-image: url("https://d19m59y37dris4.cloudfront.net/blackandwhite/2-0-1/img/ein-steig.jpg");
+  background-image: url('/src/images/bw.jpg');
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
+}
+
+.intro h1,.intro h2,.intro h3,.intro p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6)
+}
+
+.intro p {
+  font-size: 1.35rem;
 }
 
 .overlay {
@@ -64,21 +79,22 @@ header {
   transition: all 0.3s;
 }
 
+.italic {
+  font-style: italic;
+}
+
 #header {
   position: relative;
   width: 100%;
-  background: #fff;
   background: rgba(255, 255, 255, 0.95);
   height: 3em;
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
 
 #logo {
+  display: inline-block;
+  line-height: 3em;
   position: absolute;
-  left: 1em;
-  top: 0;
-  height: inherit;
-  letter-spacing: -1px;
 }
 
 #logo a {
@@ -91,6 +107,7 @@ header {
   top: 0;
   height: 3em;
   line-height: 3em;
+  font-size: 15pt;
 }
 
 #nav ul {
@@ -111,4 +128,48 @@ header {
   line-height: 3em;
   padding: 0 0.5em 0 0.5em;
   outline: 0;
+}
+
+#about, #whatido, #contact{
+  padding: 150px 0;
+}
+
+#whatido .icon {
+  font-size: 50px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.heading{
+  margin-bottom: 40px;;
+}
+.heading:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  margin: 20px 0 20px;
+  background: #555;
+}
+
+.box {
+  margin-top: 20px;;
+}
+
+p.social {
+  text-align: center;
+  margin-top: 20px;
+}
+p.social a{
+  margin: 0 10px 0 0;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    line-height: 38px;
+    font-size: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: bottom;
 }
