@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#header {
+		height: 2.5em;
+		line-height: 2.5em;
+	}
+
+	body {
+		padding-top: 1em;
+	}
+
+	#logo {
+		text-align: center;
+		position: relative;
+		left: 0;
+		top: 0;
+		height: inherit;
+	}
+	
+		#logo a {
+			font-size: 1em;
+		}
+	
+	#nav {
+		display: none;
+	}
