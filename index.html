@@ -22,10 +22,10 @@
         <div class="row">
           <div class="col-lg-8 col-md-12 mx-auto">
             <p class="italic">Oh, hello, nice to meet you!</p>
-            <h1>I'm Arindam Sahu <br>
+            <h1>I'm Arindam <br>
               An UI enthusiast, <br>
               A designer, developer </h1>
-            <p class="italic">Ready to dive into my portfolio? Scroll along !
+            <p class="italic">Ready to dive into my portfolio? 
             </p>
           </div>
         </div>
@@ -33,7 +33,8 @@
     </div>
     </div>
   </section>
-  <header id="header" class="navbar">
+  <header>
+    <div id="header"class="navbar">
     <div id="logo">
       <img src="src/images/name.png" alt="" class="img-fluid">
     </div>
@@ -46,6 +47,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    </div>
   </header>
   <section id="about">
     <div class="container">
@@ -111,23 +113,31 @@
           <h1 class="heading">My Experience</h1>
           <div class="row">
             <div class="col-md-12 col-lg-8">
-              <p>Put your portfolio or gallery images here for example. Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+              <p> Results-oriented and innovative Senior Software Engineer with 9+
+                years of experience in diversified field of Front End UI development
+                with proficiency in mobile and web platforms. </p>
             </div>
           </div>
             <div class="row">
               <div class="col-md-4">
                   <div class="box">
-                    <img src="https://cdn.images.fetchrewards.com/rewards/8d80230090cb24cd873def2c3093ab60c484f9d8.png?height=100&width=100" alt="image" class="img-fluid"></a>
+                    <h5>The Home Depot</h5>
+                    <p>2019 - Current</p>
+                    <p>Senior Software Engineer - Front End</p>
                   </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
-                  <img src="http://www.simpleimageresizer.com/_uploads/photos/6f4134b4/cts_2_400x270.png" alt="image" class="img-fluid">
+                  <h5>Cognizant</h5>
+                  <p>2016 - 2019</p>
+                    <p>Senior Associate - Front End</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
-                  <img src="http://www.simpleimageresizer.com/_uploads/photos/6f4134b4/tcs_400x270.png" alt="image" class="img-fluid">
+                  <h5>Tata Consultancy Services</h5>
+                  <p>2010 - 2016</p>
+                    <p>Junior Software Engineer</p>
                 </div>
             </div>
             </div>
@@ -173,7 +183,7 @@
 </body>
 <script>
   function onscroll(){
-    if (window.pageYOffset >= document.getElementById('about').offsetTop) {
+    if (window.pageYOffset >= document.getElementsByTagName('header')[0].offsetTop) {
             document.getElementById('header').classList.add('sticky');
         } else {
             document.getElementById('header').classList.remove('sticky');
