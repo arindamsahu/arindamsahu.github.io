@@ -34,8 +34,10 @@
     </div>
     </div>
   </section>
-  <header id="header">
-    <div id="logo"> Arindam Sahu </div>
+  <header id="header" class="navbar">
+    <div id="logo">
+      <img src="src/images/name.png" alt="" class="img-fluid">
+    </div>
     <nav id="nav">
       <ul>
         <li><a href="#intro">Intro</a></li>
@@ -108,20 +110,25 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="heading">My Experience</h1>
+          <div class="row">
+            <div class="col-md-12 col-lg-8">
+              <p>Put your portfolio or gallery images here for example. Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+            </div>
+          </div>
             <div class="row">
               <div class="col-md-4">
                   <div class="box">
-                    <img src="src/images/hd.jpg" alt="image" class="img-fluid"></a>
+                    <img src="https://cdn.images.fetchrewards.com/rewards/8d80230090cb24cd873def2c3093ab60c484f9d8.png?height=100&width=100" alt="image" class="img-fluid"></a>
                   </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
-                  <img src="src/images/cts1.jpg" alt="image" class="img-fluid">
+                  <img src="http://www.simpleimageresizer.com/_uploads/photos/6f4134b4/cts_2_400x270.png" alt="image" class="img-fluid">
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="box">
-                  <img src="src/images/tcs.jpg" alt="image" class="img-fluid">
+                  <img src="http://www.simpleimageresizer.com/_uploads/photos/6f4134b4/tcs_400x270.png" alt="image" class="img-fluid">
                 </div>
             </div>
             </div>
@@ -156,5 +163,15 @@
   </section>
   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60090755048!2d-96.87197002651243!3d32.82058616519949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1595617608645!5m2!1sen!2sus" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
 </body>
+<script>
+  function onscroll(){
+    if (window.pageYOffset >= document.getElementById('about').offsetTop) {
+            document.getElementById('header').classList.add('sticky');
+        } else {
+            document.getElementById('header').classList.remove('sticky');
+        }
+  }
+window.addEventListener("scroll", onscroll);
+</script>
 
 </html>
