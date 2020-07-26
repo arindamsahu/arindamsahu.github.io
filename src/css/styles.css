@@ -126,7 +126,7 @@ h5 {
   outline: 0;
 }
 
-#about, #whatido, #contact, #mywork{
+#about, #whatido, #contact, #mywork, #gallery{
   padding: 150px 0;
 }
 
@@ -149,7 +149,10 @@ h5 {
 }
 
 #whatido .box {
-  margin-top: 20px;;
+  margin-top: 20px;
+}
+#gallery .box{
+  margin-bottom: 30px;
 }
 p.social {
   text-align: center;
