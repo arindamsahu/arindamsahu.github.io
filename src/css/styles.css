@@ -172,6 +172,15 @@ p.social a{
 .social a{
   background-color: #333;
 }
+footer{
+  padding: 20px 0;  
+}
+.copyright{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #eee;
+  font-style: italic;
+}
 
 @media screen and (max-device-width: 800px){
     #nav{
