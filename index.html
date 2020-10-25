@@ -53,9 +53,9 @@
     </div>
     <nav id="nav">
       <ul>
-        <li><a href="#intro">Intro</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#whatido">What I Do</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#mywork">My Experience</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -70,14 +70,14 @@
           <h1 class="heading">About me</h1>
           <p>A seasoned UI developer with a strong background on object oriented concept and W3C standard.
           </p>
-          <p>A specialist in vanilla JavaScript, ES6, React JS, HTML5, SASS, CSS3, Bootstrap, JQuery and Responsive Design. I also have
+          <p>A specialist in vanilla JavaScript, ES6, React JS, HTML5, SASS, CSS3, Bootstrap, Progressive and Responsive Design. I also have
             experience in automated task runner tools like Grunt/Gulp.</p>
 
-          <p>Before joining to Home Depot, I was associated with Cognizant & Tata for more than 8 years as Senior UI
+          <p>Before joining to Home Depot, I was associated with Cognizant & Tata for more than 9 years as Senior UI
             developer focusing on digital technologies in mobile and web.
 
             For more details, please have a look at my <a href="src/images/resume.pdf">RESUME</a></p>
-          <p>I live at Dallas, Texas with my wife.</p>
+          <p>I live at Dallas, Texas with my wife and son.</p>
         </div>
         <div class="col-lg-5 mx-auto">
           <p><img src="src/images/me.png" alt="" class="img-fluid rounded-circle"></p>
@@ -120,16 +120,67 @@
       </div>
     </div>
   </section>
-  <section id="mywork">
+  <section id="skills">
+    <div class="container">
+      <div class="row skills">
+        <div class="col-lg-12">
+          <h1 class="heading">Skills</h1>
+          <div class="row">
+            <div class="col-md-12 col-lg-12">
+              <p> Through my career I've aquired following skills, including but not limited to  </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="progress-item">
+                <h6>Vanilla JS / ES6<span class="pull-right">90%</span></h6>
+                <div class="progress-main">
+                  <span class="progress-bar" data-value="90%" style="width: 90%;"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <h6>React JS<span class="pull-right">90%</span></h6>
+                <div class="progress-main">
+                  <span class="progress-bar" data-value="90%" style="width: 90%;"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <h6>HTML5 / CSS3<span class="pull-right">90%</span></h6>
+                <div class="progress-main">
+                  <span class="progress-bar" data-value="90%" style="width: 90%;"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-item">
+                <h6>Algorithm & Data Structure<span class="pull-right">80%</span></h6>
+                <div class="progress-main">
+                  <span class="progress-bar" data-value="80%" style="width: 80%;"></span>
+                </div>
+              </div>
+              <div class="progress-item">
+                <h6>Webpack<span class="pull-right">80%</span></h6>
+                <div class="progress-main">
+                  <span class="progress-bar" data-value="80%" style="width: 80%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="mywork" style="background-color: #eee">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h1 class="heading">My Experience</h1>
           <div class="row">
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-12">
               <p> Results-oriented and innovative Senior Software Engineer with 9+
                 years of experience in diversified field of Front End UI development
                 with proficiency in mobile and web platforms. </p>
+                <p> </p>
             </div>
           </div>
             <div class="row">
@@ -159,7 +210,7 @@
       </div>
     </div>
   </section>
-  <section id="gallery" style="background-color: #eee">
+  <section id="gallery">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -190,7 +241,7 @@
       </div>
     </div>
   </section>
-  <section id="contact">
+  <section id="contact" style="background-color: #eee">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -200,6 +251,35 @@
               <p>I'm always free for a constructive discussion for ideating,
                  designing and developing as the fastest, scalable and most accurate & reliable products are those that aren’t there. </p>
               <p> Feel free to connect with me by any means in below. </p>
+              <div class="col-md-12">
+                <form id="my-form" class="form" method="post" action="https://formspree.io/f/xqkgqjnv" role="form" novalidate="true">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group has-error has-danger">
+                                    <input id="form_name" type="text" name="name" placeholder="Name *" required="required" data-error="Firstname is required.">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="form_email" type="email" name="_replyto" placeholder="Email *" required="required" data-error="Valid email is required.">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group has-error has-danger">
+                                    <textarea id="form_message" name="message" placeholder="Message *" rows="4" required="required" data-error="Message." style="height: 98px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <input id="my-form-button" type="submit" class="button" value="Send message">
+                            </div>
+                        </div>
+                        <p id="my-form-status"></p>
+                </form>
+            </div>
               <p class="social">
                 <a href="https://www.linkedin.com/in/arindamsahu/"><i class="fa fa-linkedin"></i></a>
                 <a href="tel:+1-469-432-2287"><i class="fa fa-phone"></i></a>
@@ -222,23 +302,9 @@
   </footer>
 </body>
 <script>
-  function onscroll(){
-    if (window.pageYOffset >= document.getElementsByTagName('header')[0].offsetTop) {
-            document.getElementById('header').classList.add('sticky');
-        } else {
-            document.getElementById('header').classList.remove('sticky');
-        }
-  }
-window.addEventListener("scroll", onscroll);
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90254639-1', 'auto');
-  ga('send', 'pageview');
 </script>
 <script async src="//www.google-analytics.com/analytics.js"></script>
+<script src="/src/js/index.js"></script>
 
 </html>
