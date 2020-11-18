@@ -218,7 +218,10 @@ footer{
   resize: none;
 }
 @media screen and (max-device-width: 800px){
-    #nav{
+    #nav {
       display: none;
+    }
+    #logo {
+      margin: auto;
     }
 }
