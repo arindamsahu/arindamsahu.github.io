@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://arindamsahu.com/</loc>
-  <lastmod>2020-11-19T04:03:06+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.arindamsahu.com/</loc>
+<lastmod>2020-11-20T02:26:51+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://arindamsahu.com/resume.pdf</loc>
-  <lastmod>2020-11-19T04:03:06+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.arindamsahu.com/Arindam%20Resume.pdf</loc>
+<lastmod>2020-11-20T02:26:51+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
 </urlset>
