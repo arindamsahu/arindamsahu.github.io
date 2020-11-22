@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks for your e-email. I'll reply back as soon as I can !";
+      status.innerHTML = "Thanks for your e-mail. I'll reply back as soon as I can !";
     }
 
     function error() {
