@@ -1,3 +1,4 @@
+var timeout;
 window.addEventListener("scroll", onscroll);
 
 window.addEventListener("DOMContentLoaded", function() {
@@ -47,9 +48,12 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
 function onscroll(){
+  if(timeout) cancelAnimationFrame(timeout);
+  timeout = requestAnimationFrame(function(){
     if (window.pageYOffset >= document.getElementsByTagName('header')[0].offsetTop) {
-            document.getElementById('header').classList.add('sticky');
-        } else {
-            document.getElementById('header').classList.remove('sticky');
-        }
+      document.getElementById('header').classList.add('sticky');
+    } else {
+      document.getElementById('header').classList.remove('sticky');
+    }
+  });
   }
